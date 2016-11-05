@@ -4,8 +4,6 @@ class Node:
         self.right = None # is a Node
         self.value = val
     
-
-
 # ABR : 
 # left.val <= val <= righ.val
 class Tree:
