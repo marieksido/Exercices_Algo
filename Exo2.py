@@ -14,7 +14,6 @@ class fibo1 :
         
         print(run.somme)
         
-        
 #def timereps(reps, func):
     #from time import time
     #start = time()
