@@ -1,19 +1,51 @@
 class fibo1 :
     
-    def _init_(run, n):
-        run.a = 1
-        run.b = 1
-        run.somme = 0
-        run.n = n
+    def _init_(self, n):
+        self.a = 1
+        self.b = 1
+        self.somme = 0
+        self.n = n
     
-    def fibo_1(run):
+    def run(self):
     
-        for n in range(1,run.n):
-            run.a,run.b = run.b,run.a + run.b
-            run.somme = run.somme + run.a
+        for n in range(1, self.n):
+            self.a,self.b = self.b,self.a + self.b
+            self.somme = self.somme + self.a
         
-        print(run.somme)
+        print(self.somme)
         
+
+class fibo2 :
+
+    def _init_(self, n) :
+        self.arr = [1, 1]
+        self.somme = 0
+        self.n = n
+        i=0
+
+    def run(self) :
+
+        while i != self.n:
+            print(arr[-1])
+            self.somme = sum(arr)
+            arr.append(self.somme)
+            i++
+
+
+class fibo3 :
+
+    def _init_(self, n):
+        self.n = n
+        self.somme = 0
+
+    def run(self) :
+        if self.n > 1 :
+            self.somme = self.n * run(self.n -1)
+        else :
+            return 1
+
+
+
 #def timereps(reps, func):
     #from time import time
     #start = time()
